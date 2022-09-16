@@ -1,5 +1,5 @@
 # Blade Tabler Icons
-![blade-tabler-icons](https://user-images.githubusercontent.com/13808106/190652308-1c05fd77-e818-4abf-86a8-247848edc5e2.png)
+![blade-tabler-icons](https://user-images.githubusercontent.com/13808106/190656285-ced1289f-b1d3-4e10-bc1a-728023633cc1.png)
 
 <a href="https://github.com/secondnetwork/blade-tabler-icons/actions?query=workflow%3ATests">
     <img src="https://github.com/secondnetwork/blade-tabler-icons/workflows/Tests/badge.svg" alt="Tests">
