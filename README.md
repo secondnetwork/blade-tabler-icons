@@ -1,15 +1,12 @@
-# Blade Tabler Icons
 ![blade-tabler-icons](https://user-images.githubusercontent.com/13808106/190656285-ced1289f-b1d3-4e10-bc1a-728023633cc1.png)
 
-<a href="https://github.com/secondnetwork/blade-tabler-icons/actions?query=workflow%3ATests">
-    <img src="https://github.com/secondnetwork/blade-tabler-icons/workflows/Tests/badge.svg" alt="Tests">
-</a>
-<a href="https://packagist.org/packagessecondnetworkr/blade-tabler-icons">
-    <img src="https://poser.pugx.org/secondnetwork/blade-tabler-icons/v/stable.svg" alt="Latest Stable Version">
-</a>
-<a href="https://packagist.org/packages/secondnetwork/blade-tabler-icons">
-    <img src="https://poser.pugx.org/secondnetwork/blade-tabler-icons/d/total.svg" alt="Total Downloads">
-</a>
+# Blade Tabler Icons
+
+[![Latest Stable Version](http://poser.pugx.org/secondnetwork/blade-tabler-icons/v)](https://packagist.org/packages/secondnetwork/blade-tabler-icons) 
+[![Total Downloads](http://poser.pugx.org/secondnetwork/blade-tabler-icons/downloads)](https://packagist.org/packages/secondnetwork/blade-tabler-icons) 
+[![License](http://poser.pugx.org/secondnetwork/blade-tabler-icons/license)](https://packagist.org/packages/secondnetwork/blade-tabler-icons) 
+[![PHP Version Require](http://poser.pugx.org/secondnetwork/blade-tabler-icons/require/php)](https://packagist.org/packages/secondnetwork/blade-tabler-icons)
+[![github Tests](https://github.com/secondnetwork/blade-tabler-icons/workflows/Tests/badge.svg)](https://github.com/secondnetwork/blade-tabler-icons/actions?query=workflow%3ATests) 
 
 A package to easily make use of [tabler-icons](https://github.com/tabler/tabler-icons) in your Laravel Blade views.
 
