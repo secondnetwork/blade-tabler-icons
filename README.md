@@ -54,6 +54,11 @@ And even use inline styles:
 <x-tabler-alert-circle style="stroke-width: 1.25"/>
 ```
 
+Or into...
+```blade
+@svg('alert-circle', 'w-6 h-6')
+```
+
 ### Raw SVG Icons
 
 If you want to use the raw SVG icons as assets, you can publish them using:
