@@ -56,7 +56,7 @@ And even use inline styles:
 
 Or into...
 ```blade
-@svg('alert-circle', 'w-6 h-6')
+@svg('tabler-alert-circle', 'w-6 h-6')
 ```
 
 ### Raw SVG Icons
