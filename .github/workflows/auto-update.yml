@@ -28,15 +28,6 @@ jobs:
       uses: shimewtr/submit_pull_request@master
       env:
         GITHUB_ACCESS_TOKEN: ${{secrets.github_token}}
-    - uses: peter-evans/create-pull-request@v4
-      with:
-        base: ${{ github.head_ref }}
-        commit-message: "auto-update: update icons with the latest commit"
-        committer: GitHub Action <noreply@github.com>
-        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-        title: "chore: update icons with the latest commit "
-        body: |
-            This updates icons
-        branch: feature/update-icons
+
 
 
