@@ -38,8 +38,14 @@ jobs:
     - name: Compile icons to resources directory
       run: ./vendor/bin/blade-icons-generate
 
-    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
-    # Docs: https://getcomposer.org/doc/articles/scripts.md
+    - name: Create PR for latest version
 
-    # - name: Run test suite
-    #   run: composer run-script test
+      uses: peter-evans/create-pull-request@v3
+      with:
+        commit-message: "auto-update: update icons"
+        committer: GitHub Action <noreply@github.com>
+        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+        title: "Update icons"
+        body: |
+            This updates from icons [create-pull-request]
+        branch: new-icons-update
