@@ -1,7 +1,8 @@
 name: Auto Update Icons
 
 on:
-  create:
+  push:
+  pull_request:
 
 permissions:
   contents: write
