@@ -38,15 +38,8 @@ jobs:
     - name: Compile icons to resources directory
       run: ./vendor/bin/blade-icons-generate
 
-    - name: Create PR for latest version
+    - name: Pull request dependency checkout
+      uses: shimewtr/submit_pull_request@master
+      env:
+        GITHUB_ACCESS_TOKEN: ${{secrets.github_token}}
 
-      uses: peter-evans/create-pull-request@v3
-      with:
-        token: ${{ secrets.PAT }}
-        commit-message: "auto-update: update icons"
-        committer: GitHub Action <noreply@github.com>
-        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-        title: "Update icons"
-        body: |
-            This updates from icons [create-pull-request]
-        branch: new-icons-update
