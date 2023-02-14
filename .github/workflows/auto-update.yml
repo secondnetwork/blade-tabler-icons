@@ -3,6 +3,8 @@ name: Auto Update Icons
 on:
   push:
   pull_request:
+  schedule:
+   - cron: '0 12 * * 1'
 
 permissions:
   contents: write
@@ -40,8 +42,8 @@ jobs:
     - name: Create pull request
       uses: peter-evans/create-pull-request@v4
       with:
-       commit-message: Update Icons Release ${{ github.event.number }}
-       title: Update Icons ${{ github.event.number }}
+       commit-message: Update Icons Release
+       title: Update Icons
        body: Update Icons
        base: main
        delete-branch: true
