@@ -37,8 +37,11 @@ jobs:
     - name: Compile icons to resources directory
       run: ./vendor/bin/blade-icons-generate
 
-    - name: Pull request dependency checkout
-      uses: shimewtr/submit_pull_request@master
-      env:
-        GITHUB_ACCESS_TOKEN: ${{secrets.github_token}}
+
+    - name: Comment current pull request
+      uses: alawiii521/current-pr-comment@v1.0
+      with:
+        comment: "Hello world!"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
