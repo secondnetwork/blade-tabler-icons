@@ -22,7 +22,7 @@ jobs:
       uses: peter-evans/create-pull-request@v4
     - name: Check outputs
       if: ${{ steps.cpr.outputs.pull-request-number }}
-        run: |
+      run: |
           echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
           echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
 
