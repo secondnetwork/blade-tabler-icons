@@ -36,12 +36,12 @@ jobs:
       
     - name: Compile icons to resources directory
       run: ./vendor/bin/blade-icons-generate
-
-
-    - name: Comment current pull request
-      uses: alawiii521/current-pr-comment@v1.0
-      with:
-        comment: "Hello world!"
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Create pull request
+      uses: devops-infra/action-pull-request@v0.5.5
+      with:          
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        title: Automatic pull request
+        target_branch: main
 
 
