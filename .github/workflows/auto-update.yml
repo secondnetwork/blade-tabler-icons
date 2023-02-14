@@ -40,8 +40,8 @@ jobs:
     - name: Create pull request
       uses: peter-evans/create-pull-request@v4
       with:
-       commit-message: Update Icons
-       title: Update Icons
+       commit-message: Update Icons Release ${{ github.event.number }}
+       title: Update Icons ${{ github.event.number }}
        body: Update Icons
        base: main
        delete-branch: true
