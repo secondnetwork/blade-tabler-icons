@@ -42,8 +42,8 @@ jobs:
     - name: Create pull request
       uses: peter-evans/create-pull-request@v4
       with:
-       title: Update Icons ${{ steps.version.outputs.result }}
-       body: Update Icons ${{ toJSON(steps.changelog.outputs.result) }}
+       title: Update Icons ${{ github.run_id }}-${{ github.run_number }}
+       body: Update Icons ${{ github.run_id }}-${{ github.run_number }}
        commit-message: Update Icons
        base: test
        delete-branch: true
