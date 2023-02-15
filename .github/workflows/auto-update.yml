@@ -61,8 +61,8 @@ jobs:
     - name: Create pull request
       uses: peter-evans/create-pull-request@v4
       with:
+       title: Update Icons ${{ steps.version.outputs.result }}
+       body: Update Icons ${{ toJSON(steps.changelog.outputs.result) }}
        commit-message: Update Icons
-       title: Update Icons
-       body: Update Icons
        base: test
        delete-branch: true
