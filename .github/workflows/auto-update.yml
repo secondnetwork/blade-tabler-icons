@@ -1,6 +1,7 @@
 name: Auto Update Icons
 
 on:
+  push:
   pull_request:
   schedule:
    - cron: '0 12 * * 1'
@@ -16,7 +17,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-
+    
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
 
@@ -45,4 +46,3 @@ jobs:
        body: Auto Update Icons ID:${{ github.run_number }} RUN_ID:${{ github.run_id }}
        base: main
        delete-branch: true
-
