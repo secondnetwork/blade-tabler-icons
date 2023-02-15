@@ -18,25 +18,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - id: latest-commit
-      name: Get the latest commit
-      run: |
-          echo 'LATEST_COMMIT<<EOF' >> $GITHUB_ENV
-          cd ./dist && git log  --format="%H" -n 1 >> $GITHUB_ENV
-          echo 'EOF' >> $GITHUB_ENV
-    - id: current-commit
-      name: Get current commot
-      uses: juliangruber/read-file-action@v1
-      with:
-        path: ./.commit
-
-    - name: Add versions to environment
-      run: |
-          echo "CURRENT_COMMIT=${{ steps.current-commit.outputs.content }}" >> $GITHUB_ENV
-    - name: Output versions
-      run: |
-        echo "Current commit: ${{ env.CURRENT_COMMIT }}"
-        echo "Latest commit: ${{ env.LATEST_COMMIT }}"
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
 
