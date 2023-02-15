@@ -45,5 +45,5 @@ jobs:
        commit-message: Update Icons
        title: Update Icons
        body: Update Icons
-       base: main
+       base: test
        delete-branch: true
