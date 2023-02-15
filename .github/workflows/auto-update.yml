@@ -41,9 +41,8 @@ jobs:
     - name: Create pull request
       uses: peter-evans/create-pull-request@v4
       with:
-       commit-message: Update Icons Release
-       title: Update Icons
-       body: Update Icons
+       title: Icons Release ID:${{ github.run_number }}
+       body: Auto Update Icons ID:${{ github.run_number }} RUN_ID:${{ github.run_id }}
        base: main
        delete-branch: true
 
