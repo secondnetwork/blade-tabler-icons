@@ -44,5 +44,6 @@ jobs:
       with:
        title: Icons Release ID:${{ github.run_number }}
        body: Auto Update Icons ID:${{ github.run_number }} RUN_ID:${{ github.run_id }}
+       commit-message: automated change Icons Release
        base: main
        delete-branch: true
