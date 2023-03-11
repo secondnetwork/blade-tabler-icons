@@ -11,6 +11,11 @@ A package to easily make use of [tabler-icons](https://github.com/tabler/tabler-
 
 For a full list of available icons see [the SVG directory](resources/svg) or preview them at [tabler-icons.io](https://tabler-icons.io/).
 
+
+## Info of update Icons Release
+
+This repository check for a new Icons Release every week with Github Actions and make a pull request
+
 ## Requirements
 
 - PHP 7.4 or higher
