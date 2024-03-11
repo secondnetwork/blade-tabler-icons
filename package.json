@@ -1,6 +1,6 @@
 {
   "private": true,
   "dependencies": {
-    "@tabler/icons": "^2.2.0"
+    "@tabler/icons": "^3.0.0"
   }
 }
