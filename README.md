@@ -63,6 +63,10 @@ Or into...
 ```blade
 @svg('tabler-alert-circle', 'w-6 h-6')
 ```
+The filled icons can be referenced like this:
+```blade
+<x-tabler-alert-circle-r />
+```
 
 ### Raw SVG Icons
 
