@@ -3,15 +3,19 @@
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="currentColor"
-  class="icon icon-tabler icons-tabler-filled icon-tabler-box-align-right"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-box-align-right"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M18.998 3.003h-5a1 1 0 0 0 -1 1v16a1 1 0 0 0 1 1h5a2 2 0 0 0 2 -2v-14a2 2 0 0 0 -2 -2z" />
-  <path d="M9.008 19.003a1 1 0 0 1 .117 1.993l-.127 .007a1 1 0 0 1 -.117 -1.993l.127 -.007z" />
-  <path d="M4.008 19.003a1 1 0 0 1 .117 1.993l-.128 .007a1 1 0 0 1 -.117 -1.993l.128 -.007z" />
-  <path d="M4.008 14.002a1 1 0 0 1 .117 1.993l-.128 .007a1 1 0 0 1 -.117 -1.993l.128 -.007z" />
-  <path d="M4.008 8.002a1 1 0 0 1 .117 1.993l-.128 .007a1 1 0 0 1 -.117 -1.993l.128 -.007z" />
-  <path d="M4.008 3.002a1 1 0 0 1 .117 1.993l-.128 .007a1 1 0 0 1 -.117 -1.993l.128 -.007z" />
-  <path d="M9.008 3.002a1 1 0 0 1 .117 1.993l-.127 .007a1 1 0 0 1 -.117 -1.993l.127 -.007z" />
+  <path d="M13.998 20.003v-16h5a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-5z" />
+  <path d="M8.998 20.003h.01" />
+  <path d="M3.997 20.003h.011" />
+  <path d="M3.997 15.002h.011" />
+  <path d="M3.997 9.002h.011" />
+  <path d="M3.997 4.002h.011" />
+  <path d="M8.998 4.002h.01" />
 </svg>
