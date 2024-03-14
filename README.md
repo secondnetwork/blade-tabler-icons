@@ -65,7 +65,7 @@ Or into...
 ```
 The filled icons can be referenced like this:
 ```blade
-<x-tabler-alert-circle-r />
+<x-tabler-alert-circle-f />
 ```
 
 ### Raw SVG Icons
