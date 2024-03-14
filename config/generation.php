@@ -9,6 +9,7 @@ return [
     [ // Regular filled...
         'source' => __DIR__.'/../node_modules/@tabler/icons/icons/filled',
         'destination' => __DIR__.'/../resources/svg',
+        'output-suffix' => '-f',
         'safe' => true,
     ],
 ];
