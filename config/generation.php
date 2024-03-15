@@ -12,5 +12,11 @@ return [
         'output-suffix' => '-f',
         'safe' => true,
     ],
+    [ // Regular filled...
+        'source' => __DIR__.'/../node_modules/@tabler/icons/icons/filled',
+        'destination' => __DIR__.'/../resources/svg',
+        'output-suffix' => '-filled',
+        'safe' => true,
+    ],
 ];
 
