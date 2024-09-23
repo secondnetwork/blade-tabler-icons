@@ -1,16 +1,14 @@
-![blade-tabler-icons](https://user-images.githubusercontent.com/13808106/190656285-ced1289f-b1d3-4e10-bc1a-728023633cc1.png)
-
 # Blade Tabler Icons
 
-[![Latest Stable Version](http://poser.pugx.org/secondnetwork/blade-tabler-icons/v)](https://github.com/secondnetwork/blade-tabler-icons) 
-[![License](http://poser.pugx.org/secondnetwork/blade-tabler-icons/license)](https://github.com/secondnetwork/blade-tabler-icons/blob/main/LICENSE.md) 
-[![PHP Version Require](http://poser.pugx.org/secondnetwork/blade-tabler-icons/require/php)](https://github.com/secondnetwork/blade-tabler-icons)
-[![github Tests](https://github.com/secondnetwork/blade-tabler-icons/workflows/Tests/badge.svg)](https://github.com/secondnetwork/blade-tabler-icons/actions?query=workflow%3ATests) 
+![blade-tabler-icons](https://user-images.githubusercontent.com/13808106/190656285-ced1289f-b1d3-4e10-bc1a-728023633cc1.png)
+
+[![Latest Stable Version](https://img.shields.io/packagist/v/secondnetwork/blade-tabler-icons.svg?style=for-the-badge&labelColor=eb4432&color=1A2A2C)](https://github.com/secondnetwork/blade-tabler-icons)
+[![PHP 8.2](https://img.shields.io/badge/v8.2-999999?style=for-the-badge&label=PHP&labelColor=777BB4&color=1A2A2C)](https://php.com)		
+[![License](https://img.shields.io/github/license/secondnetwork/blade-tabler-icons?style=for-the-badge)]([https://github.com/secondnetwork/kompass](https://github.com/secondnetwork/blade-tabler-icons/blob/main/LICENSE.md))
 
 A package to easily make use of [tabler-icons](https://github.com/tabler/tabler-icons) in your Laravel Blade views.
 
 For a full list of available icons see [the SVG directory](resources/svg) or preview them at [tabler-icons.io](https://tabler-icons.io/).
-
 
 ## Info of update Icons Release
 
