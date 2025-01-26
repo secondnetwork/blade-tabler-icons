@@ -17,7 +17,7 @@ final class BladeTablerIconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-tabler-icons', []);
 
-            $factory->add('tabler-icons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('tabler', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
     }
 
@@ -39,5 +39,3 @@ final class BladeTablerIconsServiceProvider extends ServiceProvider
         }
     }
 }
-
-//Generating Icons $vendor/bin/blade-icons-generate
