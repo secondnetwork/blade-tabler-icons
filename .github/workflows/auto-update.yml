@@ -30,8 +30,13 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-php-
     
-    - name: Yarn Upgrader
-      uses: browniebroke/yarn-upgrade-action@v1.1
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v1
+      with:
+        bun-version: latest # or specify a version like '1.0.0'
+   
+    - name: Install Node.js dependencies
+      run: bun install
       
     - name: Install dependencies
       run: composer update --no-interaction --no-progress --dev
