@@ -3,7 +3,7 @@
   "workspaces": {
     "": {
       "dependencies": {
-        "@tabler/icons": "^3.0.0",
+        "@tabler/icons": "^3.31.0",
       },
     },
   },
