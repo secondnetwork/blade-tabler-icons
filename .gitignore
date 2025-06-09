@@ -5,6 +5,7 @@ composer.lock
 phpunit.xml
 package-lock.json
 yarn.lock
+bun.lock
 yarn-error.log
 ### macOS ###
 *.DS_Store
