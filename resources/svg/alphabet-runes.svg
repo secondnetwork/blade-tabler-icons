@@ -8,9 +8,10 @@
   stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
-  class="icon icon-tabler icons-tabler-outline icon-tabler-square-minus"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-alphabet-runes"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M9 12h6" />
-  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z" />
+  <path d="M17 18v-12" />
+  <path d="M13 6l4 4l4 -4" />
+  <path d="M11 18l-7 -8l4 -4l4 4l-7 8" />
 </svg>
