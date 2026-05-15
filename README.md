@@ -1,8 +1,8 @@
 # Blade Tabler Icons
 
-![blade-tabler-icons](https://user-images.githubusercontent.com/13808106/190656285-ced1289f-b1d3-4e10-bc1a-728023633cc1.png)
+<img width="1280" height="641" alt="tabler_github" src="https://github.com/user-attachments/assets/8a4f4a15-7240-4c12-a954-62bc82bfe23e" />
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/secondnetwork/blade-tabler-icons.svg?style=for-the-badge&labelColor=eb4432&color=1A2A2C)](https://github.com/secondnetwork/blade-tabler-icons)
+[![Latest Stable Version](https://img.shields.io/packagist/v/secondnetwork/blade-tabler-icons.svg?style=for-the-badge&labelColor=FF474F&color=1A2A2C)](https://github.com/secondnetwork/blade-tabler-icons)
 [![PHP 8.2](https://img.shields.io/badge/v8.2-999999?style=for-the-badge&label=PHP&labelColor=777BB4&color=1A2A2C)](https://php.com)		
 [![License](https://img.shields.io/github/license/secondnetwork/blade-tabler-icons?style=for-the-badge)](https://github.com/secondnetwork/blade-tabler-icons/blob/main/LICENSE.md)
 
