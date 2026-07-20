@@ -8,10 +8,12 @@
   stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
-  class="icon icon-tabler icons-tabler-outline icon-tabler-flip-horizontal"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-italic-off"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <path d="M12 3l0 18" />
-  <path d="M16 7l0 10l5 0l-5 -10" />
-  <path d="M8 7l0 10l-5 0l5 -10" />
+  <path d="M11 5h6" />
+  <path d="M7 19h6" />
+  <path d="M11.8 12.9l-1.8 6.1" />
+  <path d="M2.8 3l18 18" />
+  <path d="M14 5l-1.2 4.1" />
 </svg>
