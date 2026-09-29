@@ -2,53 +2,51 @@ name: Auto Update Icons
 
 on:
   workflow_dispatch:
-  pull_request:
   schedule:
-   - cron: '0 12 * * 1'
+    - cron: '0 12 * * 1'
 
 permissions:
   contents: write
-  pull-requests: write 
+  pull-requests: write
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Validate composer.json and composer.lock
-      run: composer validate --strict
+      - uses: actions/checkout@v4
 
-    - name: Cache Composer packages
-      id: composer-cache
-      uses: actions/cache@v3
-      with:
-        path: vendor
-        key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-php-
-    
-    - name: Setup Bun
-      uses: oven-sh/setup-bun@v1
-      with:
-        bun-version: latest # or specify a version like '1.0.0'
-   
-    - name: Install Node.js dependencies
-      run: bun install --no-save
-      
-    - name: Install dependencies
-      run: composer update --no-interaction --no-progress --dev
-      
-    - name: Compile icons to resources directory
-      run: ./vendor/bin/blade-icons-generate
-    
-    - name: Create pull request
-      uses: peter-evans/create-pull-request@v4
-      with:
-       title: Icons Release ID:${{ github.run_number }}
-       body: Auto Update Icons ID:${{ github.run_number }} RUN_ID:${{ github.run_id }}
-       commit-message: 'feat: automated change Icons Release ID:${{ github.run_number }}'
-       base: main
-       delete-branch: true
+      - name: Validate composer.json and composer.lock
+        run: composer validate --strict
+
+      - name: Cache Composer packages
+        uses: actions/cache@v4
+        with:
+          path: vendor
+          key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-php-
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install Node.js dependencies
+        run: bun install --no-save
+
+      - name: Install PHP dependencies
+        run: composer update --no-interaction --no-progress
+
+      - name: Compile icons to resources directory
+        run: ./vendor/bin/blade-icons-generate
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          title: 'Icons Release ID:${{ github.run_number }}'
+          body: 'Auto Update Icons ID:${{ github.run_number }} RUN_ID:${{ github.run_id }}'
+          commit-message: 'feat: automated change Icons Release ID:${{ github.run_number }}'
+          base: main
+          branch: auto-update-icons
+          delete-branch: true
