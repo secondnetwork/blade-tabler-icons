@@ -8,10 +8,8 @@
   stroke-width="2"
   stroke-linecap="round"
   stroke-linejoin="round"
-  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-lens-concave"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-  <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10" />
-  <path d="M8.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 0 0 -7 0" />
-  <path d="M17 7v.01" />
+  <path d="M7.9 3a.9 .9 0 0 0 -.72 1.44a12.6 12.6 0 0 1 0 15.12a.9 .9 0 0 0 .72 1.44h9a.9 .9 0 0 0 .72 -1.44a12.6 12.6 0 0 1 0 -15.12a.9 .9 0 0 0 -.72 -1.44h-9" />
 </svg>
